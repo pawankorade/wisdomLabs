@@ -1,0 +1,8 @@
+{
+  "name": "wisdomLabs",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "e3238a2e"
+}

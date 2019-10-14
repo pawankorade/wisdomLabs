@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{shop.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="https://picsum.photos/id/{{shop.id}}/200/200" />
+    <ion-card-header>
+      <ion-card-subtitle>Destination</ion-card-subtitle>
+      <ion-card-title>{{shop.city}}, {{shop.country}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-subtitle>Address</ion-card-subtitle>
+      {{shop.name}}<br>
+      {{shop.street}},
+      {{shop.state}},
+      {{shop.city}},
+      {{shop.country}}, {{shop.postal_code}}.<br>
+      Lat & Long : {{shop.latitude}},{{shop.longitude}}<br>
+      Contact : {{shop.phone}},<br>
+      Website : {{shop.website_url}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
